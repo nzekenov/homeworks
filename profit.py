@@ -16,7 +16,7 @@ def main():
     for x in range(lastn+1, 11):
       sum2 += (50 * n) * binom(10,x) * math.pow(0.5, 10)
     res[n] = sum1 + sum2
-  
+  print(res.index(max(res)))
   return 0;
 
 
